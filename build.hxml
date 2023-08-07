@@ -1,0 +1,8 @@
+-cp src
+-D analyzer-optimize
+--library hx_webserver:0.0.3
+--library crypto:1.0.4
+--library console.hx:0.3.0
+--library random:1.4.1
+-main Main
+--cpp bin
